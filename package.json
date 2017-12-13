@@ -54,8 +54,5 @@
     "fuzzy-match-utils": "^1.2.0",
     "storybook": "^1.0.0"
   },
-  "main": "dist/index.js",
-  "engines": {
-    "npm": "^3.0.0"
-  }
+  "main": "dist/index.js"
 }
