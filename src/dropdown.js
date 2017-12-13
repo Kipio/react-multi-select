@@ -157,7 +157,7 @@ class Dropdown extends Component {
     }
 }
 
-const focusColor = '#78c008';
+const focusColor = '#006ffa';
 
 const styles = {
     dropdownArrow: {
@@ -200,8 +200,7 @@ const styles = {
         color: '#333',
         left: 0,
         lineHeight: '34px',
-        paddingLeft: 10,
-        paddingRight: 10,
+        padding: '6px 12px',
         position: 'absolute',
         right: 0,
         top: 0,
@@ -218,7 +217,7 @@ const styles = {
     dropdownHeader: {
         boxSizing: 'border-box',
         backgroundColor: '#fff',
-        borderColor: '#d9d9d9 #ccc #b3b3b3',
+        borderColor: '#ddd',
         borderRadius: 4,
         borderBottomRightRadius: 4,
         borderBottomLeftRadius: 4,
@@ -228,7 +227,7 @@ const styles = {
         display: 'table',
         borderSpacing: 0,
         borderCollapse: 'separate',
-        height: 36,
+        height: 48,
         outline: 'none',
         overflow: 'hidden',
         position: 'relative',
